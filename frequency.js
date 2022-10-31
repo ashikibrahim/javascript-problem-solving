@@ -140,3 +140,9 @@
 //     updatedDays.push(day);
 // }
 // console.log(updatedDays);
+
+// 12)make sentence out of given array
+// const stringArray=["keep","the","blue","flag","fly","high"]
+
+// const finalOutput=stringArray.join(" ")
+// console.log(finalOutput);
