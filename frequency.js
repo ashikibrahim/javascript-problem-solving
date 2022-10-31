@@ -90,11 +90,42 @@
 //  console.log(!isNaN(validate))
 //-----------------------------------------------------
 
-// 7)sort an array>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// 7)sort an array number>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // const unsorted=[10,4,7,2,22,13];
 
 // unsorted.sort((a,b)=>{
 //     return a-b
 // })
 // console.log(unsorted);
+// -------------------------------------------------------------------------------------
 
+// 8)unique values in array>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// const number=[10,1,1,5,5,7,8,9]
+// const uniqueValues=number.filter((ele,index,arr)=>arr.indexOf(ele) == index)
+// console.log(uniqueValues);
+// const sortedUniqueValues=uniqueValues.sort((a,b)=>{
+//     return a-b;
+// })
+// console.log(sortedUniqueValues);
+// -------------------------------------------------------------------------------------
+
+// 9) find max value in an array >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// const numberArr =[5,7,10,3,77,94,27,65]
+
+// function findMaxValue(arr){
+//     return arr.reduce((prev,curr)=>{
+//         return prev>curr ? prev : curr; 
+//     })
+// }
+
+// console.log(findMaxValue(numberArr));
+
+// 10)avg of the numbers in the numbered array
+const num=[5,10,40,25,90,45]
+
+const totalCount = num.reduce((a,b)=>a+b);
+// console.log(totalCount);
+const arrLength=num.length
+console.log(arrLength);
+
+console.log(totalCount/arrLength);
