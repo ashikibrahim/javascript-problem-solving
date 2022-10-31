@@ -121,11 +121,22 @@
 // console.log(findMaxValue(numberArr));
 
 // 10)avg of the numbers in the numbered array
-const num=[5,10,40,25,90,45]
+// const num=[5,10,40,25,90,45]
 
-const totalCount = num.reduce((a,b)=>a+b);
+// const totalCount = num.reduce((a,b)=>a+b);
 // console.log(totalCount);
-const arrLength=num.length
-console.log(arrLength);
+// const arrLength=num.length
+// console.log(arrLength);
+// console.log(totalCount/arrLength);
+// -------------------------------------------------------------------
 
-console.log(totalCount/arrLength);
+// 11)uppercase first char at string array>>>>>>>>>>>>>>>>>>>>
+// const days =["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+ 
+// let updatedDays=[];
+// for(let day of days){
+//     day=day.charAt(0).toUpperCase()+day.substring(1);
+//     console.log(day)
+//     updatedDays.push(day);
+// }
+// console.log(updatedDays);
