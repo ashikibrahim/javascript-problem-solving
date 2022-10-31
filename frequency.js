@@ -146,3 +146,28 @@
 
 // const finalOutput=stringArray.join(" ")
 // console.log(finalOutput);
+
+// 13)check if given array contains any element of another array    
+// const array1=[1,2,3,4,5]
+// const array2=[10,9,7]
+
+// let result =array1.some(ele=>array2.includes(ele));
+// console.log(result);
+
+// 14)check if string is anagram
+// const string1="cinema";
+// const string2="iceman";
+
+// function checkAnagram(string1,string2){
+//     var a=string1.toLowerCase();
+//     var b=string2.toLowerCase();
+
+//     a=a.split("").sort().join("");
+//     b=b.split("").sort().join("")
+//     console.log(a)
+//     console.log(b);
+//     return a === b;
+// }
+// console.log(checkAnagram(string1,string2));
+
+// 15) map method
