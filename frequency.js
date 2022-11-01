@@ -82,7 +82,7 @@
 //     }
 // },{})
 
-// console.log(countOfDuplicate
+// console.log(countOfDuplicate)
 // -------------------------------------------------
 
 // 6).>>>>>>>>>>>>>>>find the no is intiger
@@ -171,3 +171,22 @@
 // console.log(checkAnagram(string1,string2));
 
 // 15) map method
+// const input={
+//     "students":[
+//         {
+//             name:"ashik",
+//             id:10,
+//         },
+//         {
+//             name:"akshay",
+//             id:12,
+//         },
+//         {
+//             name:"deepu",
+//             id:14,
+//         },
+//     ]
+// }
+// const op=input.students.map(function(item){
+//     return item.name
+// })
