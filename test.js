@@ -68,14 +68,47 @@
 // ----------------------------------------------------------------------
 
 // Write a program to delete an element at a specific position from an array.
-let arr=[7,3,4,8,5,8,0,6]
+// let arr = [7, 3, 4, 8];
+// inbuilt function
+// arr.splice(1,2);
+// console.log(arr,"pppp");
+// let key = 8;
+// let index = -1;
 
-for(i=0;i<arr.length;i++){
-    // if(){
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] == key) {
+//     index = i;
+//   }
+//   if (index != -1) {
+//     for (j = index; j < arr.length; j++) {
+//         arr[j] = arr[j + 1];
+//     }
+//   }
+// }
+// console.log(arr);
+// i=0;i<4
+// 
 
-    //     arr.splice(index,1)
-    // }
-}
+// write a second min value in array
+// let arr=[0,1,8,5,7,8]
+// let min,smin;
+// let max=0;
 
-
-console.log(arr,"pppp");
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max=arr[i]
+//         min=max;
+//         smin=max;
+//     }
+// }
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]<min){
+//         smin=min
+//         min=arr[i]
+//     }
+//     if(arr[i]>min && arr[i]<smin){
+//         smin=arr[i]
+//     }
+// }
+  
+// console.log(smin,"smin");
