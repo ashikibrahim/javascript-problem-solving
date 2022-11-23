@@ -1,20 +1,16 @@
 // Write a program to count the frequency of each element of an array.
-// let arr=[1,1,2,2,5]
+// let arr = [1, 1, 2, 2, 5];
 // //  console.log(arr.length,"arrlen")
-// obj={}
+// obj = {};
 
-// for(i=0;i<arr.length;i++){
-//   if(!obj[arr[i]]){
-
-//     obj[arr[i]]=1
-
-//   }else{
-
-//     obj[arr[i]]+=1
-
+// for (i = 0; i < arr.length; i++) {
+//   if (!obj[arr[i]]) {
+//     obj[arr[i]] = 1;
+//   } else {
+//     obj[arr[i]] += 1;
 //   }
 // }
-// console.log(obj)
+// console.log(obj);
 // --------------------------------------------------------------------------------------
 //  Write a program to find the largest and smallest number in an array.
 // let arr = [7, 3, 6, 4, 8,99,1];
@@ -70,24 +66,26 @@
 // Write a program to delete an element at a specific position from an array.
 // let arr = [7, 3, 4, 8];
 // inbuilt function
-// arr.splice(1,2);
+// arr.splice(1,1);
 // console.log(arr,"pppp");
-// let key = 8;
+// let key = 3;
 // let index = -1;
-
+// let temp;
 // for (i = 0; i < arr.length; i++) {
 //   if (arr[i] == key) {
-//     index = i;
+//     temp=arr[i]
 //   }
-//   if (index != -1) {
-//     for (j = index; j < arr.length; j++) {
-//         arr[j] = arr[j + 1];
-//     }
+//   for(j=i;j<arr.length;j++){
+//     arr[j]=arr[j+1]
+//     arr[j+1]=temp
 //   }
 // }
 // console.log(arr);
-// i=0;i<4
-// 
+// for(k=0;k<arr.length-1;k++){
+//     console.log(arr[k])
+// }
+
+
 
 // write a second min value in array
 // let arr=[0,1,8,5,7,8]
@@ -110,5 +108,5 @@
 //         smin=arr[i]
 //     }
 // }
-  
+
 // console.log(smin,"smin");
