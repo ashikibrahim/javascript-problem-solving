@@ -110,3 +110,18 @@
 // }
 
 // console.log(smin,"smin");
+
+
+// add total count of duplicate elements
+const arr=[1,2,1,2,3,4,3,4,1,2]
+let count=0
+for(i=0;i<arr.length;i++){
+    for(j=i+1;j<arr.length;j++){
+        if(arr[i]==arr[j]){
+            count+=1
+            arr[j]=NaN
+        }
+    }
+  
+}
+console.log(count)
