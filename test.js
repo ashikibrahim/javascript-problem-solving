@@ -113,15 +113,21 @@
 
 
 // add total count of duplicate elements
-const arr=[1,2,1,2,3,4,3,4,1,2]
-let count=0
-for(i=0;i<arr.length;i++){
-    for(j=i+1;j<arr.length;j++){
-        if(arr[i]==arr[j]){
-            count+=1
-            arr[j]=NaN
-        }
-    }
+// const arr=[1,2,1,2,3,4,3,4,1,2]
+// let count=0
+// for(i=0;i<arr.length;i++){
+//     for(j=i+1;j<arr.length;j++){
+//         if(arr[i]==arr[j]){
+//             count+=1
+//             arr[j]=NaN
+//         }
+//     }
   
-}
-console.log(count)
+// }
+// console.log(count)
+// hoistedVariable = 12;  
+// console.log(hoistedVariable); // outputs 12 even when the variable is declared after it is initialized    
+// var hoistedVariable;  
+
+console.log(a)
+var a=12;
