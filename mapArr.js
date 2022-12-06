@@ -8,10 +8,13 @@
 // })
 // console.log(arr2);
 
+
+
+
 // filter method
 
 // const arr=[33,44,7,6,99]
-// const arr2=arr.filter((value)=>{
+// const arr2=arr.filter((value,index,array)=>{
 //     // if(value>20){
 //     //     return value
 //     // }
@@ -26,7 +29,11 @@
 
 // console.log(arr.filter(canVote));
 
-let arr=[7,4,3,4,65,87,22,44]
-// parameter accumulator,current,index,array
-const arr2=arr.reduce((acc,cur)=>acc+cur) 
-console.log(arr2);
+
+
+
+// reduce
+// let arr=[7,4,3,4,65,87,22,44]
+// parameter = accumulator,current,index,array
+// const arr2=arr.reduce((acc,cur)=>acc+cur) 
+// console.log(arr2);

@@ -14,4 +14,5 @@
 // console.log(reverseStr("mysore"));
 
 
-// 
+// REVERSE AN INTIGER USING JS
+let num
