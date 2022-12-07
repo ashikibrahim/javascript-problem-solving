@@ -37,3 +37,10 @@
 // parameter = accumulator,current,index,array
 // const arr2=arr.reduce((acc,cur)=>acc+cur) 
 // console.log(arr2);
+
+
+arr=[1,2,3,4,5]
+const arr2=arr.reduce((acc,curr)=>{
+    return acc+=curr
+},10)
+console.log(arr2);
