@@ -76,6 +76,7 @@
 //     alert:alert,
 // }
 // myObj.alert()
+// out put 22 years old
 
 // example 2
 // function alert(){

@@ -1,3 +1,20 @@
+// let str="madam"
+
+// function palindrome(str){
+//     const len=str.length
+//     for(i=0;i<len/2;i++){
+//         if(str[i]!==str[len-1-i]){
+//             console.log("not a palindrome",str);
+//         }  
+//     }
+//     console.log("given string is a palindrome",str);
+// }
+// palindrome(str)
+
+
+
+
+// reverse string
 // const str = 'ashik'
 
 // function reverseStr(str){
@@ -13,6 +30,3 @@
 // console.log(reverseStr(str))
 // console.log(reverseStr("mysore"));
 
-
-// REVERSE AN INTIGER USING JS
-let num

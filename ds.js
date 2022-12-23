@@ -1,13 +1,14 @@
 // fibinocci sequence (normal way)
 // fib 0,1,1,2,3,5,8....
-// let n1=0,n2=1,temp;
+let n1=0,n2=1,temp;
 
-// for(let i=0;i<5;i++){
-//     console.log(n1) //0,1,1,2,3,5 
-//     temp=n1+n2; //0+1=1,1,3,5,8
-//     n1=n2;   //n1=1,1,2,3,5
-//     n2=temp  //n2=1,2,3,5,8
-// }
+for(let i=0;i<5;i++){   //i=0,1
+    console.log(n1) //0,1,1,2,3,5 // 0,1
+    temp=n1+n2; //0+1=1,1,3,5,8  //0+1=1,
+    n1=n2;   //n1=1,1,2,3,5 // 1,
+    n2=temp  //n2=1,2,3,5,8 // 1,
+}
+
 
 
 

@@ -1,19 +1,19 @@
 //count the total number of duplicate elements in an array.
 
-// let arr=[1,12,2,2,4,4,5,6,7,8,8]
-//  let count=0;
-// for( i=0;i<arr.length;i++){
-//     for( j=i+1;j<arr.length;j++){
-//             if(arr[i]==arr[j])
-//             {
-//                 count++;
-//                 break;
-//             }
-//     }
+let arr=[1,12,2,8,2,4,4,5,6,7,8,8]
+ let count=0;
+for( i=0;i<arr.length;i++){
+    for( j=i+1;j<arr.length;j++){
+            if(arr[i]==arr[j])
+            {
+                count++;
+                break;
+            }
+    }
     
-// }
-// console.log(count,"count");
-// typeof(null);
+}
+console.log(count,"count");
+typeof(null);
 
 
 // removw duplicate elements in array

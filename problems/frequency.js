@@ -1,5 +1,5 @@
 //<<<1>>> find frequency
-// let arr=[10,20,30,40,20,10]
+// let arr=[10,20,30,10,40,20,10]
 // let obj={}
 
 // for (let i=0;i<arr.length;i++){
@@ -190,4 +190,8 @@
 // const op=input.students.map(function(item){
 //     return item.name
 // })
+
+// var a= {"name":"ashik",age:20}
+// a.name="muneeb";
+// console.log(a);
 

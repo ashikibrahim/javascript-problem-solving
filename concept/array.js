@@ -41,9 +41,9 @@
 //   myFun(11,6,3,7,9,22);
 // a=11,b=6,manymoreargs=[3,7,9,22] (rest of the  numbers as an array)
 
-const length = 4;
-const numbers = [];
-for (var i = 0; i < length; i++);{
-  numbers.push(i + 1);
-}
-console.log(numbers);
+// const length = 4;
+// const numbers = [];
+// for (var i = 0; i < length; i++);{
+//   numbers.push(i + 1);
+// }
+// console.log(numbers);
