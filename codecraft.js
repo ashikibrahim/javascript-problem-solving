@@ -1,7 +1,6 @@
 // let arr4 = [{id:1,status:'pending'},{id:2,status:'pending'},{id:3,status:'complete'},{id:4,status:'pending'}]
 // let count1=0
 // let count2=0
-// // let obj={}
 // for(i=0;i<arr4.length;i++){
 
     

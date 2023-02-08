@@ -8,9 +8,15 @@
 // })
 // console.log(arr2);
 
-
-
-
+let arr=[1,2,3,4,5]
+let[...c]=arr
+// let num=[...arr]
+console.log(c);
+let obj ={name:"ashik",age:12}
+let d={...obj}
+d.name="ameen"
+console.log(d.name);
+console.log(obj.name);
 // filter method
 
 // const arr=[33,44,7,6,99]
@@ -33,9 +39,9 @@
 
 
 // reduce
-// let arr=[7,4,3,4,65,87,22,44]
+// let arr=[1,2,3,4,5]
 // parameter = accumulator,current,index,array
-// const arr2=arr.reduce((acc,cur)=>acc+cur) 
+// const arr2=arr.reduce((acc,cur)=>acc*cur) 
 // console.log(arr2);
 
 

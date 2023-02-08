@@ -9,8 +9,8 @@
 //   name:"ibrahim"  
 // };
 
-// person.hello.call(alterPerson,"world");
 
+// person.hello.call(alterPerson,"world");
 // promises
 // function showText(text,time){
 //     return new Promise((resolve, reject)=>{

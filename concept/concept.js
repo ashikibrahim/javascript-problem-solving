@@ -146,3 +146,15 @@
 //         }
 //     }
 // }(3)(4)(5));
+
+
+// hoisting
+// console.log(a);
+// a=1  //error a not defined
+
+// console.log(b);
+// var b=1; //undefined
+
+// c=3
+// console.log(3);  //3
+// var c;    //3

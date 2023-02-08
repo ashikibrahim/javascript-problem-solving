@@ -129,5 +129,23 @@
 // console.log(hoistedVariable); // outputs 12 even when the variable is declared after it is initialized    
 // var hoistedVariable;  
 
-console.log(a)
-var a=12;
+// console.log(a)
+// var a=12;
+
+// filter 
+// const arr=[1,2,3,4,56,7,8]
+// const id=2
+
+// const filtered = arr.filter((items,index)=>{
+//     if(index!==id){
+//         return items
+//     }
+// })
+// console.log(filtered);
+
+// map
+// const list=[1,2,3,4,5]
+
+// const element =list.map((items,index)=>items*2)
+// console.log(element);
+

@@ -1,22 +1,41 @@
-// prime
-let arr = [1,2, 3, 4,6, 5, 7, 9, 11, 13, 15];
-let arr1 = [];
-let arr2 = [];
-let flag=0
-function prime(arr,arr1,arr2) {
-for(i=0;i<arr.length;i++){
-    flag=0;
-    for(j=2;j<arr[i]/2;j++){
-        if(arr[i]>2 && arr[i]%j==0){
-            flag=1;
-            break;
-        }
-    }
-    if(arr[i]>2 && flag==0){
-        arr1.push(arr[i])
-    }
-}
-console.log(arr1);
-console.log(arr2);
-}
-console.log(prime(arr,arr1,arr2));
+const arr=[1,2,3,3,4,5,6]
+
+// let i=1;
+// let result=arr.map((item,index)=>{
+//     if(index==i){
+//         return item=5
+//     }else{
+//         return item
+//     }
+// })
+// console.log(result);
+
+// let i=1;
+// let result=arr.filter((item,index)=>{
+//     if(index==3){
+//         return item
+//     }
+// })
+// console.log(result);
+// var x={},
+// y={key:"y"}
+// a={key:"z"}
+// z={key:"z"}
+// x[y]=11
+
+// console.log(x[y]);
+// console.log(x[z]);
+// console.log(x[a]);
+
+// x[z]=21
+// console.log(x[y]);
+// console.log(x[z]);
+// console.log(x[a]);
+
+// x[a]=43
+// console.log(x[y]);
+// console.log(x[z]);
+// console.log(x[a]);
+
+
+
